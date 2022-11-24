@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  overflow: hidden;
+}
+marquee {
+  height: 100vh;
+}
+img {
+  height: 120px;
+}
+@media (max-width: 600px) {
+  img {
+    height: 80px;
+  }
+}
